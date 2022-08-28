@@ -5,7 +5,6 @@ input.onButtonPressed(Button.B, function () {
     music.playSoundEffect(music.createSoundEffect(WaveShape.Square, 1600, 1, 255, 0, 300, SoundExpressionEffect.None, InterpolationCurve.Curve), SoundExpressionPlayMode.InBackground)
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    music.startMelody(music.builtInMelody(Melodies.Entertainer), MelodyOptions.Once)
     inkybit.clear()
     inkybit.drawIcon(
     IconNames.Giraffe,
