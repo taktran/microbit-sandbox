@@ -7,34 +7,19 @@ input.onButtonPressed(Button.B, function () {
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     music.startMelody(music.builtInMelody(Melodies.Entertainer), MelodyOptions.Once)
     inkybit.clear()
-    inkybit.drawText(
-    "Hello hello!",
-    0,
-    0,
-    inkybit.Color.Accent,
-    inkybit.TextSize.Regular
-    )
-    inkybit.drawText(
-    "How are you?",
-    0,
-    12,
-    inkybit.Color.Black,
-    inkybit.TextSize.Large
-    )
     inkybit.drawIcon(
-    IconNames.Heart,
+    IconNames.Giraffe,
     76,
     52,
     inkybit.Color.Black,
     inkybit.TextSize.Regular
     )
-    inkybit.show()
 })
 music.setVolume(51)
 basic.showLeds(`
     # # # # #
     # . . . #
-    # . # . #
+    # . . . #
     # . . . #
     # # # # #
     `)
